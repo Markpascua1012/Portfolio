@@ -1,0 +1,11 @@
+.abCont2{
+    margin: auto;
+    width: 90%;
+    border: 3px; 
+    padding: 10px;
+    height: 100%;
+    background-color: #1a1d24;
+}
+body {
+    background-color: #1a1d24
+}

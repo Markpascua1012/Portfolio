@@ -1,0 +1,58 @@
+
+.contDiv{
+    height: 100%;
+    width: 100%;
+}
+
+.Navie{
+    margin-top: -60px;
+}
+
+
+.jumbotron{
+    background-image: url(https://thumbs.gfycat.com/ExaltedAccomplishedHornedtoad-size_restricted.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+   
+    }
+    
+    .textJumbo{
+        text-align: right;
+        margin-right: 50px;
+        margin-top:150px; 
+        color: white;
+        text-shadow: 1px 1px rgb(41, 41, 41);
+    }
+    
+    .fontOne{
+        font-family: 'Amatic SC', cursive;
+        font-size: 80px;
+        
+    }
+    
+    .hello{
+        font-family: 'Amatic SC', cursive;
+    
+    }
+    
+    p {
+        font-family: 'Amatic SC', cursive;
+        font-size: 50px;
+    }
+    
+    
+    .navie {
+        margin-top: -65px;
+        margin-left: -35px;
+        margin-right: -34px;
+    }
+    
+    .opac{
+        opacity: .75;
+    }
+    
+    
+    
+    
+ 
