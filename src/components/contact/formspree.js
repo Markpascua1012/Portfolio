@@ -1,15 +1,23 @@
 import React from "react";
-
 import "./contact.css";
+import Textfield from "./textfield";
+import EmailForm from "./emailform";
+import MButton from "./mbutton"
 
 
 const contact = () => {
   return (
-    <div>
+    <div className="formCont">
 <form method="POST" action="https://formspree.io/markpascua1012@gmail.com">
-  <input type="email" name="email" placeholder="Your email" />
-  <textarea name="message" placeholder="Test Message"></textarea>
-  <button type="submit">Send Test</button>
+  <div className="emailDiv">
+  <EmailForm />
+  </div>
+
+  <div className="textDiv">
+  <Textfield />
+  </div>
+
+  <MButton />
 </form>
     </div>
 

@@ -34,19 +34,19 @@ export default function ButtonAppBar() {
         <div className={classes.root}>
             <AppBar position="static" className={classes.appBar}>
                 <Toolbar>
-                    <Button color="inherit"> 
+                    <Button color="inherit" href="#HOME"> 
                         Mark Pascua  &nbsp; <KeyboardArrowUpIcon />
                     </Button>
                     |
-                    <Button color="inherit"> <AccountCircleIcon /> &nbsp;
+                    <Button color="inherit" href="#ABOUTME"> <AccountCircleIcon /> &nbsp;
                         About Me
                     </Button>
                     |
-                    <Button color="inherit"> <AssignmentIcon /> &nbsp;
+                    <Button color="inherit" href="#PROJECTS"> <AssignmentIcon /> &nbsp;
                         Projects
                     </Button>
                     |
-                    <Button color="inherit"><ContactMailIcon /> &nbsp;
+                    <Button color="inherit" href="#CONTACT"><ContactMailIcon /> &nbsp;
                         Contact
                     </Button>
                 </Toolbar>

@@ -14,7 +14,7 @@
     width: 100px;
     /* Set the hr color */
     color: #1a1d24;; /* old IE */
-    background-color: #1a1d24;; /* Modern Browsers */
+    background-color: #1a1d24; /* Modern Browsers */
 }
 
 @font-face {
