@@ -12,7 +12,7 @@ const JumbotronPage = () => {
     <div className="textJumbo">
         <h1 className="display-4 hello">H e l l o . </h1>
         <p className="lead fontOne">I'm Mark Pascua</p>
-        <p>I'm a Full-Stack Web Developer.</p>
+        <p className="jumboFont">I'm a Full-Stack Web Developer.</p>
         <a className="btn btn-primary btn-lg bg-dark" href="#ABOUTME" role="button">About Me</a>
     </div>
 </Jumbotron>

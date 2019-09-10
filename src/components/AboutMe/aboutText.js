@@ -5,11 +5,20 @@ import "./AboutMe.css"
 const aboutText = () => {
   return (
     <div>
-        <div className="textz">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-        </div>
+        <p className="textz">
+          <br></br>
+          <br></br>
+        A 25 year old full-stack web developer raised in Honolulu, HI and currently I reside in Irvine, CA.
+        I have a background in customer service and experience in marketing. Recently recieved a full-stack web developer
+        certificate from the University of California Irvine Coding Bootcamp, a three month coding intensive with a  focus 
+        in gaining core knowledge and skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, Handelbars.js 
+        and ReactJS. With no coding experience prior to taking the course I gained a new love and passion for coding that
+        I never expected. I also have experience as a marketing directing a urban dance team where I managed social accounts and
+        worked with other individuals choreographing preparing for dance competitions all around the west coast. 
+        Other then coding I also have passions for Music, Gaming, Pop-Culture, Bartending, Anime, Art, and Fashion.
+        </p>
+        <br></br>
+        <br></br>
     </div>
 
   )

@@ -11,6 +11,7 @@ import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
+import "../projects.css"
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 
@@ -92,7 +93,14 @@ export default function RecipeReviewCard(props) {
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
           <Typography paragraph>
-            {props.aboutproject2}
+            <h4>What it Does</h4>
+            <p>{props.aboutproject2}</p>
+            <hr className="cardhr"></hr>
+            <h4>What it Uses</h4>
+            <p>{props.uses}</p>
+            <hr className="cardhr"></hr>
+            <h4>Team Members</h4>
+            <p>{props.team}</p>
           </Typography>
         </CardContent>
       </Collapse>
