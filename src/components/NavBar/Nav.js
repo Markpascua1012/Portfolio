@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-
+import "./Nav.css";
 import Button from '@material-ui/core/Button';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import AssignmentIcon from '@material-ui/icons/Assignment';
@@ -12,6 +12,7 @@ import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 const useStyles = makeStyles(theme => ({
     root: {
         flexGrow: 1,
+        
     },
     menuButton: {
         marginRight: theme.spacing(2),
@@ -20,9 +21,11 @@ const useStyles = makeStyles(theme => ({
         flexGrow: 1,
     },
     appBar: {
-        background: "white",
-        color: "#1a1d24;"
-        
+        background: "black",
+        color: "white",
+        position: "fixed",
+        top: 0,
+        width: "100%",
 
     }
 }));
@@ -31,8 +34,9 @@ export default function ButtonAppBar() {
     const classes = useStyles();
 
     return (
+        <div className="navCont">
         <div className={classes.root}>
-            <AppBar position="static" className={classes.appBar}>
+            <AppBar className={classes.appBar} style={{zIndex:100}}>
                 <Toolbar>
                     <Button color="inherit" href="#HOME"> 
                         Mark Pascua  &nbsp; <KeyboardArrowUpIcon />
@@ -52,5 +56,6 @@ export default function ButtonAppBar() {
                 </Toolbar>
             </AppBar>
         </div>
+    </div>
     );
 }

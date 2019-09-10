@@ -18,6 +18,9 @@ const contact = () => {
       <a href="https://linkedin.com/in/markpascua1012/">
       <i class="fab fa-linkedin">&nbsp;https://linkedin.com/in/markpascua1012/</i> 
       </a>
+      <a href="https://github.com/Markpascua1012">
+      <i class="fab fa-github-square"></i>&nbsp;https://github.com/Markpascua1012
+      </a>
       </div>
       </div>
 

@@ -16,8 +16,8 @@ const JumbotronPage = () => {
         <a className="btn btn-primary btn-lg bg-dark" href="#ABOUTME" role="button">About Me</a>
     </div>
 </Jumbotron>
-<div className="Navie">
-<Nav />
+ <div className="Navie">
+ <Nav />
 
 </div>
 </div>

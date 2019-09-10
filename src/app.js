@@ -5,6 +5,7 @@ import TitleCards from "./components/TitleCards/TitleCards";
 import TitleCards2 from "./components/TitleCards2/TitleCards2";
 import Projects from "./components/Projects/projects";
 import Contact from "./components/contact/contact"
+
 import "./app.css";
 
 

@@ -6,7 +6,7 @@ import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <div className="abCont">
+    <div className="abCont" >
             <br></br>
 
 
